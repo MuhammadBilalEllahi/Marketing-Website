@@ -168,7 +168,7 @@
     </div>
     <div class="form-row">
       <div class="input-group">
-        <input type="number" id="phone">  
+        <input type="number" id="phone">
       </div>
       <div class="input-group">
         <select id="subject" class="subjectOption">
@@ -202,7 +202,8 @@
     const message = document.getElementById('message').value;
 
     const formData = { name, email, phone, subject, message };
-    fetch('http://localhost:6786/sendmail', {
+    // fetch('http://localhost:6786/sendmail', { //https://email-sender-weld.vercel.app/
+    fetch('https://email-sender-weld.vercel.appsendmail', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
