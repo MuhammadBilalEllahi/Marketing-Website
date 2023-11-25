@@ -194,6 +194,11 @@
 </section>
 
 <script>
+  // require("dotenv").config({path:'.env'})
+  require('dotenv').config();
+  alert(process.env.SETWEB)
+
+
   function sendEmail() {
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
@@ -202,8 +207,7 @@
     const message = document.getElementById('message').value;
 
     const formData = { name, email, phone, subject, message };
-    // fetch('http://localhost:6786/sendmail', { //https://email-sender-weld.vercel.app/
-    fetch('https://email-sender-weld.vercel.app/sendmail', {
+    fetch('https://node-email-server-master.vercel.app/sendmail', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
