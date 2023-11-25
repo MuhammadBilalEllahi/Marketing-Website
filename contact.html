@@ -195,7 +195,9 @@
 
 <script>
   // require("dotenv").config({path:'.env'})
-  require('dotenv').config();
+  import * as dotenv from "dotenv";
+
+  dotenv.config();
   alert(process.env.SETWEB)
 
 
