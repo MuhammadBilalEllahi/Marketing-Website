@@ -11,9 +11,6 @@
     "start": "npm run build && npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1",
 
-    "clean": "rm -rf node_modules",
-    "reinstall": "npm run clean && npm install",
-    "rebuild": "npm run clean && npm install && npm run build"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4"
