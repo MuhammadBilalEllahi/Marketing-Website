@@ -13,6 +13,10 @@ html{
 /*.contact-us{*/
 /*  width:  ;*/
 /*}*/
+
+.holder{
+  width: 98%;
+}
 .title-us,.description-who-we-are,.u-contact h3{
   padding: 0;
 }
@@ -24,15 +28,15 @@ html{
   max-width: 526px;
 }
 .contact-us-50{
-  width: 80%;
+  width: 100%;
 }
 .google-map{
   width: 20%;
 }
 
 .u-contact{
-    padding: 20px;
-    width: 80%;
+    padding: 25px;
+    width: 95%;
 }
 
 .holder{
