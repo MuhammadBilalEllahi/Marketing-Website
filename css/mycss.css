@@ -16,6 +16,10 @@
   min-height: 100vh;
 }
 
+.img-bg-pad-perc{
+  padding-bottom: 20%;
+}
+
   .svg-blob{
   position: absolute;
   bottom: 0;
